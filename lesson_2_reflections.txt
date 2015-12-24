@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+There is a .git folder with metadata. You need to add files using git add <filename> for them to be tracked. You need to do this because
+you may not want to track all files
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area is a subset of the set of files in the working directory that you want to commit to the repository. 
+Choosing which files to commit may be better for following the idea of one commit per logical change, if the files are logically separate
+Also, you may not care to track changes to all files
