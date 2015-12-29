@@ -14,3 +14,8 @@ Use git diff --staged to compare the file(s) in staging area to the respository 
 then use git commit
 Also if you have made more than one logical change across multiple files since your last commit, you can add them to the staging area 
 (git add) and commit them one at a time
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Say you want to add an experimental feature while still working on your master branch code. Or you want to make a version in spanish
+or something. You achieve better logical separation with branches. Also, since you don't have to jump back and forth between commits 
+within a single branch there is less cognitive overhead with keeping track of everything.
