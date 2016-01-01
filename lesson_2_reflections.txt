@@ -27,3 +27,7 @@ of each commit
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Anything removed from the common ancestor node by either branch is left out of the merge. Anything added to either branch is kept. 
 The resulting commit from the merge has as parents the last commit from each branch before the commit.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pro - more efficient
+Cons - may want more control over what happens
