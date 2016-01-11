@@ -19,3 +19,7 @@ How would you collaborate without using Git or GitHub? What would be easier, and
   Emailing around copies of the code, or just describing the changes made. 
   This ad-hoc method of collaboration was easy to begin with but became really difficult to keep all the versions straight
   and to make sure we were all on the same page and generally caused a lot of hours to be wasted.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+  When you are using Github collaboratively it makes sense to push to a branch and make a pull request, so others have a chance
+   to review your changes. Also, when others run git pull it won't affect their master.
